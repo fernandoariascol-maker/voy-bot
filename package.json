@@ -1,0 +1,12 @@
+{
+  "name": "voy-bot",
+  "version": "3.0.0",
+  "main": "bot.js",
+  "scripts": { "start": "node bot.js" },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.9",
+    "express": "^4.19.2",
+    "twilio": "^5.0.0"
+  }
+}
